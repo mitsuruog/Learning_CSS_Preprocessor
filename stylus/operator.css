@@ -1,0 +1,12 @@
+/* 
+ * []のテスト
+ * 下の例の[0]だとfuncionsとかの戻り値をsplitした配列のインデックスみたい。
+ */
+body {
+  padding: 6;
+  padding: error 'a and b must be units!';
+  padding: error;
+  padding: true;
+  padding: 'a and b must be units!';
+  padding: 'a and b must be units!';
+}
