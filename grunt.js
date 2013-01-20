@@ -25,9 +25,6 @@ module.exports = function(grunt) {
     });
 
     // Load npm tasks
-    //grunt.loadNpmTasks('grunt-csso');
-    //grunt.loadNpmTasks('grunt-less');
-
     grunt.loadNpmTasks('grunt-contrib-stylus');
     
     // Default task.
