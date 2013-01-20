@@ -13,7 +13,7 @@ module.exports = function(grunt) {
                     //      ]
                 },
                 files: {
-                    'stylus/operator.css': 'stylus/src/operator.styl', // 1:1 compile
+                    'stylus/*.css': 'stylus/src/*.styl', // 1:1 compile
                     //      'main.css': ['src/*.styl', 'path/to/more/*.styl'] // compile and concat into single file
                 }
             }
