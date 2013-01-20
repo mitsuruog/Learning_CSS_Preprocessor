@@ -1,0 +1,18 @@
+/*
+ * @extend
+ *
+ */
+form input[type=text],
+textarea {
+  padding: 5px;
+  border: 1px solid #eee;
+  color: #ddd;
+}
+textarea {
+  padding: 10px;
+}
+.hoge,
+.extend,
+.extends {
+  padding: 5px;
+}

@@ -1,0 +1,32 @@
+/*
+ * @extend
+ *
+ */
+
+//@extendsがtypoであるかどうかのテスト
+
+form
+ input[type=text]
+   padding: 5px
+   border: 1px solid #eee
+   color: #ddd
+
+textarea
+ @extends form input[type=text]
+ padding: 10px
+
+//え・・・？
+//@extendでも@extendsでも一緒？？
+
+.hoge
+ padding 5px
+
+.extend
+ @extend .hoge
+
+.extends
+ @extends .hoge
+
+//あ・・・一緒なんですね・・・
+//へーーーー
+
