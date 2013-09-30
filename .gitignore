@@ -1,3 +1,6 @@
 node_modules
 
+# for ide
+
 .c9revisions
+.idea

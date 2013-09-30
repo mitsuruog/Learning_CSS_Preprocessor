@@ -1,0 +1,23 @@
+{
+  "name": "Learning_CSS_Preprocessor",
+  "version": "0.0.0",
+  "description": "Learning CSS Preprocessor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mitsuruog/Learning_CSS_Preprocessor.git"
+  },
+  "author": "mitsuruog",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "f9a5a9b261942b973dd56f0dcc9ec906e76ab491",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-compass": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-connect": "~0.5.0"
+  }
+}
