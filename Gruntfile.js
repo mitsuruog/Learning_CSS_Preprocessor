@@ -18,22 +18,33 @@ module.exports = function (grunt) {
 		connect: {
 			livereload: {
 				options: {
-					port: 9001
+					port: 35729
 				}
 			}
 		},
 		compass: {
-			options: {
-				config: 'config.rb',
-				sassDir: 'compass/scss',
-				cssDir: 'compass/css'
+			dev: {
+				options: {
+					basePath: 'compass/',
+					config: 'compass/config.rb'
+				}
+			}
+		},
+		handlebars: {
+			compass: {
+				options: {
+					namespace: "JST"
+				},
+				files: {
+					"compass/*.html": "compass/handlebars/**/*.handlebars"
+				}
 			}
 		}
 	});
 
 	var taskName;
-	for(taskName in pkg.devDependencies) {
-		if(taskName.substring(0, 6) == 'grunt-') {
+	for (taskName in pkg.devDependencies) {
+		if (taskName.substring(0, 6) == 'grunt-') {
 			grunt.loadNpmTasks(taskName);
 		}
 	}

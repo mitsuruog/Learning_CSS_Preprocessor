@@ -1,6 +1,9 @@
 node_modules
+npm-debug.log
+
+# for sass
+.sass-cache
 
 # for ide
-
 .c9revisions
 .idea
